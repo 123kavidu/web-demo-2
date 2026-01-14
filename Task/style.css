@@ -1,0 +1,30 @@
+.content{
+    height:200px ;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+   /* height: 100%; */
+   width: 100%;    
+   /* border-radius: 10px; */
+}
+
+.dark {
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.text {
+    color: white;
+    position: absolute;
+    padding-inline: 10px;
+    padding-block: 10px;
+    top: 80px;
+}

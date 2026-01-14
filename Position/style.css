@@ -1,0 +1,43 @@
+.static {
+    position: relative;
+    left: 100px;
+    
+}
+
+.relative {
+position: relative;
+top: 100px
+
+}
+
+.absolute{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ab-cover {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.nav {
+    height: 60px;
+    border-radius: 10px;
+    background-color: brown;
+    position: sticky;
+    top: 10px;
+}
+
+.fixed {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+

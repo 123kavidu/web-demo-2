@@ -1,0 +1,34 @@
+.animation{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: blue;
+    animation-name: acpt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes acpt {
+    from {left: 0; top: 0;}
+    to {left: 300px; top: 0;}
+} */
+
+@keyframes acpt {
+   0% {left: 0; top:0;}
+   25% {left: 300px; top: 0;}
+   50% {top: 300px; left: 300px;}
+   75% {top: 300px; left: 0;}
+   100% {left: 0; top: 0;}
+}
+
+.trans{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+}
+
+.trans:hover {
+    background-color: brown;
+    border-radius: 100px;
+}
